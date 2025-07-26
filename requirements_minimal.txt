@@ -1,0 +1,29 @@
+# Core dependencies (required)
+torch>=2.0.1
+torchaudio
+transformers>=4.21.0
+datasets
+streamlit>=1.28.0
+numpy
+scipy
+librosa>=0.10.0
+pydub
+sentencepiece
+soundfile
+accelerate
+huggingface_hub
+
+# Optional dependencies (install separately if needed)
+# gradio>=3.40.0  # Alternative UI framework
+# ffmpeg-python   # Advanced audio processing
+# openai-whisper  # Speech-to-text functionality
+
+# Platform-specific dependencies
+# For Windows: install separately via conda or system package manager
+# - ffmpeg (required for pydub)
+# - Visual C++ Build Tools (for some packages)
+
+# OpenVoice (manual installation required)
+# git clone https://github.com/myshell-ai/OpenVoice.git
+# cd OpenVoice
+# pip install -e .

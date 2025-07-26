@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Models and Cache
+models/
+checkpoints/
+*.pth
+*.pt
+*.bin
+*.ckpt
+
+# Audio files (temporary)
+temp_*.wav
+temp_*.mp3
+temp_*.m4a
+*.tmp
+
+# Output files
+outputs/
+output/
+generated/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Streamlit
+.streamlit/
+
+# PyTorch Hub
+torch/
